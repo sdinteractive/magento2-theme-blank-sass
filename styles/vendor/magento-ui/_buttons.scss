@@ -21,11 +21,11 @@
 
     $_button-color-hover                : $button__hover__color,
     $_button-background-hover           : $button__hover__background,
-    $_button-border-hover               : $_button-border,
+    $_button-border-hover               : $button__hover__border,
 
     $_button-color-active               : $_button-color,
     $_button-background-active          : $_button-background-hover,
-    $_button-border-active              : $_button-border,
+    $_button-border-active              : $button__active__border,
 
     $_button-gradient                   : inherit,
     $_button-gradient-direction         : inherit,
@@ -332,11 +332,11 @@
 
     $_button-color-hover      : $button__hover__color,
     $_button-background-hover : $button__hover__background,
-    $_button-border-hover     : $button__active__background,
+    $_button-border-hover     : $button__hover__border,
 
     $_button-color-active     : $_button-color,
     $_button-background-active: $_button-background-hover,
-    $_button-border-active    : $_button-border
+    $_button-border-active    : $button__active__border
 ) {
     background: $_button-background;
     border: $_button-border;
