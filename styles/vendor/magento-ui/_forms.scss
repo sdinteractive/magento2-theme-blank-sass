@@ -247,7 +247,7 @@
 @mixin lib-form-validation(
     $_element-color-error       : inherit,
     $_element-color-valid       : inherit,
-    $_element-border-color-error: lighten($error__color, 20%),
+    $_element-border-color-error: $form-element-validation__border-error,
     $_element-border-color-valid: inherit,
     $_element-background-error  : inherit,
     $_element-background-valid  : inherit
